@@ -1,27 +1,39 @@
+
+h1 {
+    text-align: center;
+    color: lightsteelblue;
+    font-size: 50px;
+}
+
+p {
+    text-align: center;
+}
+
 header {
-    background-color: lightgrey;
+    background-color: lightslategray;
     width: 500px;
     height: 200px;
     padding: 50px;
     border: 15px dotted black;
-    margin-top: 20px;
+    margin: 20px auto;
 
 }
 
 main {
-    background-color: lightgrey;
+    background-color: lightslategrey;
     width: 500px;
     height: 200px;
     padding: 50px;
     border: 15px dotted black;
-    margin-top: 20px;
+    margin: 20px auto;
 }
 
 footer {
-    background-color: lightgrey;
+    background-color: lightslategrey;
     width: 500px;
     height: 200px;
     padding: 50px;
     border: 15px dotted black;
-    margin-top: 20px;
+    margin: 20px auto;
 }
+
