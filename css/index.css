@@ -1,6 +1,4 @@
-body {
-    margin: 0;
-}
+
 
 h1 {
     color: rgb(71, 70, 64);
@@ -26,35 +24,34 @@ img {
 
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 
 
 /*****Class selectors*****/
 
-.module1 {
+div.module1 {
     background-color: grey;
-    margin-top: 0;
-    
-  
-    
+   
   
 }
 
-.module2 {
+div.module2 {
     background-color: lightgrey;
-    margin-top: 0;
+   
     
 }
 
-.module3 {
+div.module3 {
     background-color: grey;
-    margin-top: 0;
+  
    
 }
-.module4 {
+div.module4 {
+
     background-color: lightgrey;
-    margin-top: 0;
+    
     
 }
 
