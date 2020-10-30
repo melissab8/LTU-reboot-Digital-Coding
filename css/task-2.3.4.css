@@ -7,3 +7,21 @@ header {
     margin-top: 20px;
 
 }
+
+main {
+    background-color: lightgrey;
+    width: 500px;
+    height: 200px;
+    padding: 50px;
+    border: 15px dotted black;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: lightgrey;
+    width: 500px;
+    height: 200px;
+    padding: 50px;
+    border: 15px dotted black;
+    margin-top: 20px;
+}
