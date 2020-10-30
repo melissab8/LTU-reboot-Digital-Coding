@@ -34,6 +34,7 @@ p {
 
 .module1 {
     background-color: grey;
+    margin-top: 0;
     
   
     
@@ -42,18 +43,18 @@ p {
 
 .module2 {
     background-color: lightgrey;
-    
+    margin-top: 0;
     
 }
 
 .module3 {
     background-color: grey;
-    
+    margin-top: 0;
    
 }
 .module4 {
     background-color: lightgrey;
-    
+    margin-top: 0;
     
 }
 
