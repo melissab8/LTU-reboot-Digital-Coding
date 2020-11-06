@@ -11,5 +11,7 @@ console.log(mealTotal);
 
 alert("Your meal total is £" + mealTotal + ". This included a 15% tip of £" + mealTip + ".");
 
+document.write("Your meal total is £" + mealTotal + ". This included a 15% tip of £" + mealTip + ".");
+
 
 
