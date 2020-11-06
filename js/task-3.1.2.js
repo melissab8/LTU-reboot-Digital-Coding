@@ -1,5 +1,5 @@
-console.log("Hello World");
+console.log("Hello from the console");
 
-alert("hello World");
+alert("hello from the alert pop up");
 
-document.write("hello world");
+document.write("hello from document write");
