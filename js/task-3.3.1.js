@@ -9,7 +9,7 @@ function percentageCalculator(number, percentage) {
 console.log (percentageCalculator (300 , 10));
 
 
-//You can write this directly in the console and you can change the values as you want.
+//You can write this directly in the browser console and you can change the values as you want.
 
 
 
