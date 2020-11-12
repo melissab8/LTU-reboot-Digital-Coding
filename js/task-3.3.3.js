@@ -5,22 +5,26 @@ function calculator( number1, number2, operator) {
     //this var will output my result
 
 
-switch( operator ){
-     case " + " :
+switch( operator ) {
+     case "+" :
         result = number1 + number2;
         console.log(number1 + " + " + number2 + " = " + result);
         break;
 
-    case " - " :
+    case "-" :
         result = number1 - number2;
         console.log(number1 + " - " + number2 + " = " + result);
         break;
 
-    case " / " :
+    case "/" :
         //code here
         break;
 
-    case " % " :
+    case "%" :
+        //code here
+        break;
+
+    case "*" :
         //code here
         break;
 
