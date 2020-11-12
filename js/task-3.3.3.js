@@ -8,28 +8,31 @@ function calculator( number1, number2, operator) {
 switch( operator ) {
      case "+" :
         result = number1 + number2;
-        console.log(number1 + " + " + number2 + " = " + result);
+        console.log( number1 + " + " + number2 + " = " + result );
         break;
 
     case "-" :
         result = number1 - number2;
-        console.log(number1 + " - " + number2 + " = " + result);
+        console.log( number1 + " - " + number2 + " = " + result );
         break;
 
     case "/" :
-        //code here
+        result = number1 / number2;
+        console.log( number1 + " / " + number2 + " = " + result );
         break;
 
     case "%" :
-        //code here
+        result = number1 % number2;
+        console.log( number1 + " / " + number2 + " = remainder " + result );
         break;
 
     case "*" :
-        //code here
+        result = number1 * number2;
+        console.log( number1 + " * " + number2 + " = " + result );
         break;
 
      default :  
-     //write an error message   
+        console.log( "There is an error" ); 
 
  }
 
