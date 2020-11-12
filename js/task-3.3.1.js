@@ -13,4 +13,4 @@ console.log (percentageCalculator (300 , 10));
 
 
 
-//BODMAS you can do this in a different order to what i have done to get a % var could be (number * percentage) /100; my way above is much easier!
+//BODMAS you can do this in a different order to what i have done to get a %.    var could be (number * percentage) /100; my way above is much easier!
