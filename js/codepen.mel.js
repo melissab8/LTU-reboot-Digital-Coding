@@ -11,7 +11,10 @@ var remainderName = name.slice(1,name.length);
 //this slices the remainder of the name - we have used name length as we won't alwasy know the length of the name being enetered.
 
 var upperCaseFirstChar = firstChar.toUpperCase();
-// this variable now take the firstChar variable and cpaitalises it
+// this variable now take the firstChar variable and capitalises it
+
+remainderName = remainderName.toLowerCase();
+//this ensure that the rest of the name is all in lowercase
 
 var capitalisedName = upperCaseFirstChar + remainderName;
 //we have concatenated the variables
