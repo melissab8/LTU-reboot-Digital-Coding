@@ -25,10 +25,13 @@ alert("Hello " + capitalisedName);
 
 
 
+
+
+
 //TASK LIFE CALCULATOR TO 90 YEARS OLD
+// i want to enter age in a prompt but it is not working!!!!!    var age = prompt("Please enter your age in years");
 
 function lifeInWeeks(age) {
-    
     var remainingYearsTo90 = 90 - age;
 
     var days = remainingYearsTo90 * 365;
@@ -39,3 +42,5 @@ function lifeInWeeks(age) {
     
 
 }
+
+
