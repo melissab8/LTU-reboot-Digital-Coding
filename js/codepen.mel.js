@@ -23,3 +23,19 @@ alert("Hello " + capitalisedName);
 
 //this alert now outputs the capitalisedName
 
+
+
+//TASK LIFE CALCULATOR TO 90 YEARS OLD
+
+function lifeInWeeks(age) {
+    
+    var remainingYearsTo90 = 90 - age;
+
+    var days = remainingYearsTo90 * 365;
+    var months = remainingYearsTo90 * 12;
+    var weeks = remainingYearsTo90 * 52;
+
+    console.log("You have " + days + " days & " + weeks + " weeks and " + months + " months left to live");
+    
+
+}
