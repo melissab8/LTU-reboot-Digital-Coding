@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>task 3.4.1 - 17/11/2020</title>
+
+    <style>
+        div {
+            float: left;
+            margin: 25px;
+            padding: 1em;
+            max-width: 100%;
+            border: 1px solid green;
+        
+        }
+
+        header {
+            margin-bottom: 1em;
+
+        }
+
+
+    </style>
 </head>
 <body>
     <h1>JS Loops, Arrays and Objects</h1>
@@ -12,9 +30,20 @@
       
 
       <script>
-
+          // the below js is a for loop inside a for loop
         for( let counter = 1; counter <= 12; counter++ ) {
-            console.log( counter * 7);
+
+            document.write( "<div>"); //open div tag
+            document.write("<header>" + counter + " times table " + "</header>");    
+
+                for ( let counter2 = 1; counter2 <= 12; counter2++ ) {
+                    //document.write( counter * counter2 + " = " + counter + " * " + counter2 + "<br>");
+
+                    //the shorthand to output this in doc.write is shown below
+                    document.write(`${counter} * ${counter2} = ${counter * counter2} <br>`);
+                }
+           
+           document.write("</div>");
 
         }
 
