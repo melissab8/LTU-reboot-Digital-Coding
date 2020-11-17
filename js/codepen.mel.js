@@ -44,7 +44,7 @@ function lifeInWeeks(age) {
 }
 
 
-//for loop - must have a 'counter', 'condition' and 'a change'
+//for loop - must have a 'counter', 'condition' and 'a change' the below for loop is outputting numbers 1-10.
 
 for ( var index = 1; index <= 10; index++){
 console.log( index );
