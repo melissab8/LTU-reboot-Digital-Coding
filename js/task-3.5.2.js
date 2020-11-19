@@ -61,25 +61,34 @@ let shoppingCart = [
     price:.4
     }];
 
-    function shoppingCartTotalPrice( arr ) { // 1. create a function that takes 1 argument (the array)
+    // 1. create a function that takes 1 argument (the array)
 
-        var totalPrice = 0; // 2.create a variable inside the function called 'total price'
+    function discountForFood( arr) {
+
+        var totalPrice = 0; // 2.create a variable inside the function called 'totalPrice'
+
 
         // 3. Loop through each item in the array (shopping list) and add the value of the item to the total price, rembering to account for the quantity.
-         for( var index = 0; index < arr.length; index++) {
+        for( var index = 0; index < arr.length; index++) {
 
-            totalPrice = totalPrice + ( arr[index].price * arr[index].quantity );
+            //4. If the shopping cart type is "food" then apply a 20% discount
+           if( arr[index].type === "food" ) {
+
+            var discount = ( arr[index].price * 20 ) / 100;
+
+            totalPrice = totalPrice + ( arr[index].price - discount ) * arr[index].quantity;
+
+           } else {
+               totalPrice = totalPrice + ( arr[index].price * arr[index].quantity ); 
+           }
 
         }
 
-        // 4. return the totalPrice variable (value)
         return totalPrice.toFixed(2);
-
 
     }
 
-
+    
 
     //we can use this by doing a console log
-
-    console.log( shoppingCartTotalPrice( shoppingCart) );
+    console.log( discountForFood(shoppingCart) );
