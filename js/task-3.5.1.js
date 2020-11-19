@@ -73,6 +73,7 @@ let shoppingCart = [
 
             totalPrice = totalPrice + ( arr[index].price * arr[index].quantity );
 
+        
         }
 
         // 4. return the totalPrice variable (value)
