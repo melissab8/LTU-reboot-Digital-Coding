@@ -1,7 +1,7 @@
 
 
 
-
+//shopping list array
 let shoppingCart = [
     {
     name:"loaf of bread",
