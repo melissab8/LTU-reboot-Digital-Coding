@@ -90,5 +90,5 @@ let shoppingCart = [
 
     
 
-    //we can use this by doing a console log
+    //we can use this by doing a console log to see what the total is with the discount
     console.log( discountForFood(shoppingCart) );
