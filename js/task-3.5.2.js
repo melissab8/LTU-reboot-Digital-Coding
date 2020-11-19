@@ -75,7 +75,7 @@ let shoppingCart = [
         // 4. return the totalPrice variable (value)
         return totalPrice.toFixed(2);
 
-    
+
     }
 
 
