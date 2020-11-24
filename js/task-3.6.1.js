@@ -4,6 +4,9 @@ pageBody.style.backgroundColor = "red";
 pageBody.style.paddingTop = "10px";
 */
 
+
+//THIS IS AN EXAMPLE OF USING THE DOM TO MAKE CHANGES THE STYLING OF AN HTML PAGE
+
 //this is changing the paragraph color to blue
 var paragraph = document.querySelector("p");
  paragraph.style.color = "blue";
