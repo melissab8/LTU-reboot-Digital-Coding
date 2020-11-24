@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    
+<p>
+
+    's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,  
+</p>
+
+
+<script>
+//using the DOM to change a css style
+ var paragraph = document.querySelector("p");
+ paragraph.style.color = "red";
+
+ console.log(paragraph);
+
+ /* 
+ if i changed the method to querySelectorAll i need to add a 'for loop'
+
+ for(var index = 0; index <paragraph.length; index++) {
+
+    paragraph[index].style.color = "red";
+ } 
+ */
+
+</script>
+
+
+</body>
+</html>
