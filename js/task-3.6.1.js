@@ -13,4 +13,4 @@ var paragraph = document.querySelector("p");
 
  //this is changing the image
  var image1 = document.querySelector( "img"); 
- image1.setAttribute("src", "../images/w3quiz.png");
+ image1.setAttribute("src", "../images/w3quiz.png"); //the original pic is what was entered in the html
