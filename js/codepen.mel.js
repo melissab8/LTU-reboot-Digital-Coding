@@ -44,6 +44,20 @@ function lifeInWeeks(age) {
 }
 
 
+
+
+//While loop
+
+var bottlesOfBeer = 50;
+while (bottlesOfBeer > 0) {
+    console.log( bottlesOfBeer + " bottles of beer on the wall");
+    bottlesOfBeer = bottlesOfBeer - 1;
+}
+
+
+
+
+
 //for loop - must have a 'counter', 'condition' and 'a change' the below for loop is outputting numbers 1-10.
 
 for ( var index = 1; index <= 10; index++){
