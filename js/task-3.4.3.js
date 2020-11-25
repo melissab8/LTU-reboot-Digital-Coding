@@ -2,7 +2,7 @@ var favFoods = ["pizza", "cheese", "chocolate","chips"];
 
 for( var index = 0; index < favFoods.length; index++ ) {
     console.log( favFoods[index]);
-    document.write( favFoods[1] + "<br>" );
+    document.write( favFoods[index] + "<br>" );
 
 
 }
