@@ -26,27 +26,21 @@
 </style>
 
 <script>
-//create a paragraph element and add it to a div on your page.
-
-/*
-var pageBody =  document.querySelector("body"); 
-
-var paragraph = document.createElement("p");
-var text = document.createTextNode("I am a paragraph");
-
-paragraph.appendChild( text );
-
-pageBody.appendChild( paragraph ); 
-*/
+//TASK - create a paragraph element and add it to a div on your page.
 
 
 
+
+//this is declaring a variable called pageDiv to the div i have already created in HTML
 var pageDiv = document.querySelector("div");
-
+// I have declared a new paragraph variable AND i have created a new element or NODE which is a p tag for a paragraph
 var paragraph = document.createElement("p");
+// I have declared a new text variable and i have created new text
 var text = document.createTextNode("I am a paragraph"); 
+// Now i have to nest the text within the paragraph i created 
 paragraph.appendChild( text );
-paragraph.appendChild( pageDiv );
+//then i need to nest the paragraph within the div
+pageDiv.appendChild( paragraph );
 
 
 

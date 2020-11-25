@@ -8,12 +8,17 @@
 <body>
 
     <h2>Task 3.6.3 24.11.2020 creating an event in DOM</h2>
-<p>text </p>
+<p>When mouseover event, then show alert </p>
 <button>Click here</button>
 
-    <script>
-      var btn = document.querySelector("button");
 
+
+
+    <script>
+ 
+    // JS is declaring a variable to link it to the button tag (could use getElementByTag method but querySelector is just as easy). 
+     var btn = document.querySelector("button");
+    // Now i am using the btn variable and adding an event listener. I am selecting the mouseover event and including a function which says, if there is an event of mouseover show an alert (pop up) that says button clicked
       btn.addEventListener("mouseover", function( event ){
 
         alert("button clicked");
