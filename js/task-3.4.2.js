@@ -10,4 +10,12 @@ for( var index = 0; index < favFoods.length; index++ ) {
 }
 
 
+/* If there was no 'for loop' then i would have to list it like:-
+
+console.log( favFoods[0] );
+console.log( favFoods[1] );
+console.log( favFoods[2] );
+console.log( favFoods[3] );
+*/
+
 
