@@ -28,7 +28,16 @@ function toggleImages( dataClass ) {
             image.style.display = "block" : 
             image.style.display = "none";
      })
+     /* 
+     the above method is called an arrow statement and replace the below if and else statement
 
+        if( image.dataset.class === dataClass ) {
+        image.style.display = 'block'
+        } else {
+        image.style.display = 'none';
+        }
+        
+     */
     }
 
 
