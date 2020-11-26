@@ -15,8 +15,30 @@ function toggleActiveClass( active ) {
 
 }
 
+
+
+function toggleImages( dataClass ) {
+    if( dataClass === "all") {
+        allImages.forEach( function( image ) {
+            image.style.display ="block";
+        })
+    } else {
+        allImages.forEach( image => { 
+            image.dataset.class === dataClass ? 
+            image.style.display = "block" : 
+            image.style.display = "none";
+     })
+
+    }
+
+
+} //end of toggleImages function
+
+
+
     listItems.forEach( function( item ) {
         item.addEventListener("click", function() {
             toggleActiveClass( item );
+            toggleImages( item.dataset.class );
         })
     })

@@ -1,12 +1,27 @@
+
+.selection-container {
+    
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
 .main img {
     width: 200px;
     height:150px;
+    margin: 10px;
 }
 
 .active {
 
     background-color: grey;
     color: white;
+}
 
-
+/* flex =  is a 'flex box' and puts images in a row, then wraps around if didn't fit on one line*/
+.image-selections {
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   width: 90%;
+   margin: 0 auto;
 }
