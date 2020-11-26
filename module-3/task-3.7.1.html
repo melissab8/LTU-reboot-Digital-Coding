@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+<style>
+.main img {
+    width: 200px;
+    height:150px;
+}
+
+
+</style>
+
+
 </head>
 <body>
     <h1> JS Page Filtering - Task 3.7.1 26/11/2020</h1>
 
 <p>Select 4 animals and 4 images of each animal (start with just 4 of each animal) and create a button on the page to filter each animal by type. </p>
 
-<!--This section will use bootstrap to style it, this is why the class is called main text-center-->
+<!--This section will use bootstrap framework to style it, this is why the class is called main text-center-->
 <section class="main text-center">
 
 <div class="container">
@@ -18,19 +30,47 @@
 
     <h1>Animal Filter using JS</h1>
         <div class="selection-container">
-
-            <button>ALL</button>
-            <button>LIONS</button>
-            <button>TIGERS</button>
-            <button>DOGS</button>
-            <button>HAMSTERS</button>
-
-
-
+            <button class="btn selection active" data-class="all">ALL</button>
+            <button class="btn selection" data-class="lions">LIONS</button>
+            <button class="btn selection" data-class="tigers">TIGERS</button>
+            <button class="btn selection" data=class="dogs">DOGS</button>
+            <button class="btn selection" data-class="hamsters">HAMSTERS</button>
         </div>
 
 
 </div>
+
+<!-- Selection images  -->
+<div class="image-selections">
+    <div class="images" data-class="lions">
+        <img src="https://images.pexels.com/photos/730539/pexels-photo-730539.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image of lion"/>
+
+
+     </div>
+     <div class="images" data-class="tigers">
+        <img src="https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image of tiger">
+
+    </div>
+
+    <div class="images" data-class="dogs">
+        <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image of dogs">
+
+    </div>
+
+    <div class="images" data-class="hamsters">
+        <img src="https://images.pexels.com/photos/2013665/pexels-photo-2013665.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image of hamster">
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
 
 
 </section>
@@ -39,24 +79,9 @@
 
 
 
-<!--
-<img src="https://images.pexels.com/photos/730539/pexels-photo-730539.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image of lion"/>
-
-<img src="https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image of tiger">
-
-<img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image of dogs">
-
-<img src="https://images.pexels.com/photos/2013665/pexels-photo-2013665.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image of hamster">
-
--->
 
 
-
-<style>
-
-
-
-</style>
+<script src="../js/task-3.7.1.js"></script>
 
 </body>
 </html>
