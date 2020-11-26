@@ -9,7 +9,7 @@
     <h1>Task 3.4.5 - takeaway task 17/11/2020</h1>
       
       <p>
-        Take the object we created in task 3.4.4 and then create a for loop with fav foods and print to screen.
+        Take the object we created in task 3.4.4 and then create a function with fav recipe and print a message to screen.
       </p>
       
       
@@ -18,20 +18,23 @@
       
       
       <script>
+
+                //this is the 'object' with 'properties' inside
                 var myFavRecipe = {
                 recipeName: "Chocolate cake",
                 servings:6,
                 ingredients:["flour", "chocolate", "cocoa powder", "eggs", "butter", "sugar"],
                 directions:["measure the ingredients", "combine the ingredients", "bake at 170 fan"],
-                
-              
-                
                 }
 
+                  //this function is calling the recipe name by using an argument and dot notation
+                function letsCook(myFavRecipe) {
+                 console.log("Im hungry, let's cook a " + myFavRecipe.recipeName);
 
+                }
+                
 
-
-
+//in a browser in console log enter     letsCook(myFavRecipe);    and the message will show in the console
        </script>
 </body>
 </html>
