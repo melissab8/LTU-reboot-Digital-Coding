@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    
+    background:black;
+}
+
+main{
+    width:calc(75% - 60px);
+    float:left;
+    padding:30px;
+    background:transparent;
+}
+aside{
+    width: calc(25% - 60px);
+    float: left;
+    border-left: none;
+    padding:30px;
+  
+    background:transparent;
+}
+footer{
+    clear:both;
+    padding:30px;
+    background:white;
+    text-align: center;
+}
+
+.logoContainer{
+@@ -70,12 +71,13 @@ li.active{
+}
+
+.heroImage .imageContainer{
+ 
+    height:400px;
+    max-height:400px;
+    background-image:url('https://www.nme.com/wp-content/uploads/2019/08/Steel-Panther-weigh-in-on-MeToo-debate-2019.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+   
+    background-position: 0 -50px;
+    /* background-position-y:40px;; */
+    position:relative;
+}
+
+li.active{
+    max-width:900px;
+    margin:0 auto;
+    background:white;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+
+p {
+    margin-bottom:30px;
+}
+
+.spotifyEmbed,
+.youtubeEmbed{
+    margin-bottom:30px;
+    max-width:100%;
+}
+
+footer p{
+    display:inline-block;
+}
